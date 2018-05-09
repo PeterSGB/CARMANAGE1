@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class CarManageForm
     Inherits System.Windows.Forms.Form
 
     'Form 重写 Dispose，以清理组件列表。
@@ -24,17 +24,14 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Form1
+        'CarManageForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
-        Me.IsMdiContainer = True
-        Me.Name = "Form1"
-        Me.Text = "车辆管理程序"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        Me.ClientSize = New System.Drawing.Size(894, 377)
+        Me.Name = "CarManageForm"
+        Me.Text = "CarManageForm"
         Me.ResumeLayout(False)
 
     End Sub
-
 End Class
